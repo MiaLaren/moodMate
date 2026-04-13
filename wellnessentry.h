@@ -15,7 +15,8 @@ private:
 
 public:
     WellnessEntry(int m, int d, int y, int mood, string n);
-    void display() const;
+    virtual void display() const;
+ virtual ~WellnessEntry();
 };
 
 #endif

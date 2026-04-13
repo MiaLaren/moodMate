@@ -13,3 +13,5 @@ void WellnessEntry::display() const
     cout << "Mood: " << moodScore << "/10" << endl;
     cout << "Note: " << note << endl;
 }
+
+WellnessEntry::~WellnessEntry() {}
